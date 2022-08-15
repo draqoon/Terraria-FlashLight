@@ -1,0 +1,3 @@
+displayName = FlashLights
+author = draqoon
+version = 0.1

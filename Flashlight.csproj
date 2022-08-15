@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>Flashlight</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="build.txt" />
+    <None Remove="description.txt" />
+    <None Remove="icon.png" />
+    <None Remove="Items\Tools\FlashLight.png" />
+    <None Remove="Items\Tools\GreaterFlashLight.png" />
+    <None Remove="Items\Tools\LesserFlashLight.png" />
+    <None Remove="Projectiles\GreaterLightWave.png" />
+    <None Remove="Projectiles\LesserLightWave.png" />
+    <None Remove="Projectiles\LightWave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+</Project>
